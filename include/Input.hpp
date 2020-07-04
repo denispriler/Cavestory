@@ -1,6 +1,15 @@
 #ifndef INPUT_HPP
 #define INPUT_HPP
 
+#include <SDL/SDL.h>
+
+/*
+Input class
+
+SDL_Scancode -> https://wiki.libsdl.org/SDL_Scancode
+SDL_LogDebug -> https://wiki.libsdl.org/SDL_LogDebug
+*/
+
 #include <map>
 #include <SDL/SDL.h>
 

@@ -1,14 +1,4 @@
-/*
-Input.cpp
-
-Input class
-
-SDL_Scancode -> https://wiki.libsdl.org/SDL_Scancode
-SDL_LogDebug -> https://wiki.libsdl.org/SDL_LogDebug
-*/
-
 #include <Input.hpp>
-#include <SDL/SDL.h>
 
 // Calls at the begining of each new frame to reset the keys that are no longer relevant
 void Input::frame() {
